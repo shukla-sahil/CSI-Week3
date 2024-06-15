@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+.main-content {
+  transition: margin 0.3s;
+}
+
+.main-content.closed {
+  margin-left: -240px; /* Adjust as per your sidebar width */
+}
